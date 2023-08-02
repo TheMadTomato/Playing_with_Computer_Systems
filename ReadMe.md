@@ -35,3 +35,6 @@ As i progress further i will understand more hard concepts such as Virtualizatio
 > Operating Systems, Three Easy Pieces ---> On_Halt (i am at chapter 7: Intro to Scheduling; While i can continue reading  not facing difficulties in understanding the concepts, rather my problems is with the low   level c programs, i learned c but not to experienced in low level programming, so i decided to put a halt  on this advanced book and go back to a more beginner friendly book)
 
 > Yale Patt, Sanjay Patel - Introduction to Computing Systems_ From Bits & Gates to C_C++ & Beyond (2019, McGraw-Hill Education) ---> OnGoing (should've started here this book is quite rich in info)
+
+# About the books 
+You can find these books in The_Tomato_Field repo
