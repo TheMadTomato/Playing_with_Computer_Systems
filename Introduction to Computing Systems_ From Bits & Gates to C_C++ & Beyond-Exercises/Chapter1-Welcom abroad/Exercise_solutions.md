@@ -37,3 +37,68 @@ c. a2 + 2ab + b2 (Can you do it with one add box and one multiply box?)
 7. The discussion of abstraction in Section 1.3.1 noted that one does not need to understand the makeup of the components as long as “everything about the detail is just fine.” The case was made that when everything is not fine, one must be able to deconstruct the components, or be at the mercy of the abstractions. In the taxi example, suppose you did not understand the component, that is, you had no clue how to get to the airport. Using the notion of abstraction, you simply tell the driver, “Take me to the airport.” Explain when this is a productivity enhancer, and when it could result in very negative consequences.
 
     It is a productivity enhancer when i do not have to slow myself down while working on a project. but negative consequence may happen if is did not give enough attention to some details of the base of the project
+
+8. John said, “I saw the man in the park with a telescope.” What did he mean? How many reasonable interpretations can you provide for this statement? List them. What property does this sentence demonstrate that makes it unacceptable as a statement in a program?   
+
+	Some of the interprettions that comes to my mind is that (1) He saw a guy with a telescope in the park. (2) in the park he saw a man in the park but do not know his intentions nor who he is or why does he have a telescope. and the unclarity and uncertatinty that this phrase hold is what make it unacceptable to be a statment in a program. statment in a program sould be clear to the point that answer the 5W essentially. we can't have any level of obscuroty in a program statement at all.
+
+9. Are natural languages capable of expressing algorithms?
+
+	Ye for algorithms are nothing but the sequence of idea that will be later converted to code in a certain programming language.
+
+10. Name three characteristics of algorithms. Briefly explain each of these three characteristics.
+
+	**Definiteness**: Meaning that in an algorithm, every step should be precisely stated.
+	**Effective Computability**: Meanong that in an algortihm, each step should can be carried out by the computer-Realistic for the computer standards.
+	**Finiteness**: Meaning that in an algorithm, we should declare how each process terminates.
+
+11. For each characteristic of an algorithm, give an example of a procedure that does not have the characteristic and is therefore not an algorithm.
+
+	*Definiteness*: Execute until user is satisfied. (how is the usr satisfied, when will he be?)
+	*Effective Computability*: Execute until the greatest odd number. (There is no greatest odd number)
+	*Finiteness*: enter name. ( the correct way is to say: enter name then terminate)
+
+12. Are items a through e in the following list algorithms? If not, what qualities required of algorithms do they lack?
+	a. Add the first row of the following matrix to another row whose first column contains a non-zero entry. (Reminder: Columns run vertically; rows run horizontally.)
+		 | 1 2  0  4|
+		 | 0 3  2  4|
+		 | 2 3 10 22|
+		 |12 4  3  4|
+
+	- It does not qualifies for an algorithm for it lack the third charachteristc, finiteness
+
+	b. In order to show that there are as many prime numbers as there are natural numbers, match each prime number with a natural number in the following manner. Create pairs of prime and natural numbers by matching the first prime number with 1 (which is the first natural number) and the second prime number with 2, the third with 3, and so forth. If, in the end, it turns out that each prime number can be paired with each natural number, then it is shown that there are as many prime numbers as natural numbers.
+
+	- This algorithm does not meet the *Effective Computability* criterion. it is not somthing realistic as numbers have no limit therefore there is the possibility for endless amount of pairs.
+
+	c. Suppose you’re given two vectors each with 20 elements and asked to perform the following operation: Take the first element of the first vector and multiply it by the first element of the second vector. Do the same to the second elements, and so forth. Add all the individual products together to derive the dot product.
+
+	- this algorithm is true. the steps are clear, computer-achievable, and terminate by adding all indiviual products to derive the dot - final - product.
+
+	d. Lynne and Calvin are trying to decide who will take the dog for a walk. Lynne suggests that they flip a coin and pulls a quarter out of her pocket. Calvin does not trust Lynne and suspects that the quarter may be weighted (meaning that it might favor a particular outcome when tossed) and suggests the following procedure to fairly determine who will walk the dog.
+		1. Flip the quarter twice.
+		2. If the outcome is heads on the first flip and tails on the second, then I will walk the dog.
+		3. If the outcome is tails on the first flip and heads on the second, then you will walk the dog.
+		4. If both outcomes are tails or both outcomes are heads, then we flip twice again.
+	   
+	   Is Calvin’s technique an algorithm?
+
+	   Yes and i will make it into a program using C++ because it seems fun and i hadn't used C++ in a while check it here: 
+	   > https://github.com/TheMadTomato/Playing_With_C-Cpp/tree/NoobLevelCodes/CoinFlip
+
+	e. Given a number, perform the following steps in order:
+		1. Multiply it by 4
+		2. Add 4
+		3. Divide by 2
+		4. Subtract 2
+		5. Divide by 2
+		6. Subtract 1
+		7. At this point, add 1 to a counter to keep track of the fact that you performed steps 1 through 6. Then test the result you got when you subtracted 1. If 0, write down the number of times you performed steps 1 through 6 and stop. If not 0, starting with the result of subtracting one, perform the seven steps again.
+		
+		- it is a legit algorithm
+
+13. Two computers, A and B, are identical except for the fact that A has a subtract instruction and B does not. Both have add instructions. Both have instructions that can take a value and produce the negative of that value. Which computer is able to solve more problems, A or B? Prove your result.
+
+	both will be able to output the same amount of problem since both are capabale of producing negative value.
+
+*the rest of the questions i answered oraly for i lost a lot of time while setting my new laptop and wanted to move to a new chapter*
